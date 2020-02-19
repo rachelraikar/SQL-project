@@ -7,19 +7,19 @@ This interactive GUI was created to make object analysis more efficient for the 
 ## Repository Structure
 
     builders/                     # builds images for GUI canvas
-      canvas_builder.py
+        canvas_builder.py
     images/                       # images created and plotted on GUI
-      activity.png
-      forwardbutton.png
-      kde.png
-      pausebutton.png
-      playbutton.png
-      rewindbutton.png
+          activity.png
+          forwardbutton.png
+          kde.png
+          pausebutton.png
+          playbutton.png
+          rewindbutton.png
     managers/                     # builds GUI and organizes database information
-      data_manager.py
-      ui_manager.py
-      widget_manager.py
+          data_manager.py
+          ui_manager.py
+          widget_manager.py
     models/                       # creates object summaries from database
-      object_summary.py
+        object_summary.py
     threads/                      # accesses database
-      db_service.py
+        db_service.py
